@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "spookyjams",
+  "version": "1.0",
+
+  "name": "Spooky Jams",
+  "description": "Adds various Spooky Jams, which give effects when consumed. Also adds the Spooky Yam crop, which can be turned into the Spooky Yam Jam! A SpookyJam 2025 entry.",
+  "authors": [ "Rick South" ],
+  "contact": {
+    "homepage": "https://serilum.com/mod/spooky-jams",
+    "sources": "https://github.com/Serilum/Spooky-Jams",
+    "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Spooky%20Jams"
+  },
+
+  "license": "All Right Reserved",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": { "main": [ "com.natamus.spookyjams.ModFabric" ], "client": [ "com.natamus.spookyjams.ModFabricClient" ], "modmenu": [ "com.natamus.spookyjams.fabric.config.IntegrateModMenu" ] },
+  "mixins": [
+	"spookyjams.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+	"minecraft": ">=1.21",
+    "java": ">=21",
+    "collective": ">=8.13"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Donate <3" : "https://serilum.com/donate"
+      }
+    }
+  },
+
+  "contributors": [
+	  " ",
+	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
+	  " ",
+	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  " ",
+	  "Membership sponsors:",
+	  " Alister",
+	  " Andrean Olgo",
+	  " aternosorg",
+	  " Cherriesaurus",
+	  " Michael W. S.",
+	  " t128",
+	  " Tyler Behl",
+	  " William Innes",
+	  " XAgent",
+	  " ตัวตรึง พระนคร"
+  ]
+}

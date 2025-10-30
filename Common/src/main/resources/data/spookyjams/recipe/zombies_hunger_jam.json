@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:rotten_flesh",
+		"minecraft:beetroot",
+		"minecraft:sugar",
+		"spookyjams:glass_jar"
+	],
+	"result": {
+		"id": "spookyjams:zombies_hunger_jam",
+		"count": 1
+	}
+}
