@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{ "item": "minecraft:ghast_tear" },
+		{ "item": "minecraft:snowball" },
+		{ "item": "minecraft:sugar" },
+		{ "item": "spookyjams:glass_jar" }
+	],
+	"result": {
+		"item": "spookyjams:ghasts_whisper_jam",
+		"count": 1
+	}
+}

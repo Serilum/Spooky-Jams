@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{ "item": "minecraft:spider_eye" },
+		{ "item": "minecraft:string" },
+		{ "item": "minecraft:sugar" },
+		{ "item": "spookyjams:glass_jar" }
+	],
+	"result": {
+		"item": "spookyjams:spiders_silk_jam",
+		"count": 1
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"multipart": [
+		{ "when": { "age": 0 }, "apply": { "model": "spookyjams:block/spooky_yam_crop_stage0_base" } },
+		{ "when": { "age": 1 }, "apply": { "model": "spookyjams:block/spooky_yam_crop_stage1_base" } },
+		{ "when": { "age": 2 }, "apply": { "model": "spookyjams:block/spooky_yam_crop_stage2_base" } },
+		{ "when": { "age": 3 }, "apply": { "model": "spookyjams:block/spooky_yam_crop_stage3_base" } }
+	]
+}

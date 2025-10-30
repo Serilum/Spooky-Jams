@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{ "item": "minecraft:gunpowder" },
+		{ "item": "minecraft:ender_eye" },
+		{ "item": "minecraft:sugar" },
+		{ "item": "spookyjams:glass_jar" }
+	],
+	"result": {
+		"item": "spookyjams:creepers_delight_jam",
+		"count": 1
+	}
+}
