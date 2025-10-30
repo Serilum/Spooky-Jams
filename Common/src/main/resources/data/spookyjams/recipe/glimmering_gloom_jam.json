@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{ "item": "minecraft:sweet_berries" },
+		{ "item": "minecraft:glow_ink_sac" },
+		{ "item": "minecraft:sugar" },
+		{ "item": "spookyjams:glass_jar" }
+	],
+	"result": {
+		"id": "spookyjams:glimmering_gloom_jam",
+		"count": 1
+	}
+}

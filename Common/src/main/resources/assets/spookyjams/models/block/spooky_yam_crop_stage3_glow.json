@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cross",
+	"textures": {
+		"cross": "spookyjams:block/spooky_yam_crop_stage3_glow"
+	},
+	"render_type": "translucent"
+}

@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{ "item": "minecraft:slime_ball" },
+		{ "item": "minecraft:apple" },
+		{ "item": "minecraft:sugar" },
+		{ "item": "spookyjams:glass_jar" }
+	],
+	"result": {
+		"id": "spookyjams:slimes_squish_jam",
+		"count": 1
+	}
+}
