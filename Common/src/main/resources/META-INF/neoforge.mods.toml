@@ -6,7 +6,7 @@ logoFile="icon.png"
 
 [[mods]]
 modId="spookyjams"
-version="1.0"
+version="1.1"
 displayName="Spooky Jams"
 displayURL="https://serilum.com/mod/spooky-jams"
 authors="Rick South"
