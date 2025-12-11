@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "spookyjams",
-  "version": "1.0",
+  "version": "1.1",
 
   "name": "Spooky Jams",
   "description": "Adds various Spooky Jams, which give effects when consumed. Also adds the Spooky Yam crop, which can be turned into the Spooky Yam Jam! A SpookyJam 2025 entry.",
