@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:wither_rose",
+		"minecraft:coal",
+		"minecraft:sugar",
+		"spookyjams:glass_jar"
+	],
+	"result": {
+		"id": "spookyjams:withers_rot_jam",
+		"count": 1
+	}
+}

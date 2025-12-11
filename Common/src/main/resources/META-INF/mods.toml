@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="*"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Spooky%20Jams"
+logoFile="icon.png"
+
+[[mods]]
+modId="spookyjams"
+version="1.1"
+displayName="Spooky Jams"
+displayURL="https://serilum.com/mod/spooky-jams"
+authors="Rick South"
+description='''Adds various Spooky Jams, which give effects when consumed. Also adds the Spooky Yam crop, which can be turned into the Spooky Yam Jam! A SpookyJam 2025 entry.
+'''
+credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
+
+Alister, Andrean Olgo, aternosorg, Cherriesaurus, Michael W. S., t128, Tyler Behl, William Innes, XAgent, ตัวตรึง พระนคร   
+
+If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+'''
+
+[[dependencies.spookyjams]]
+    modId="collective"
+    type="required"
+    mandatory=true
+    versionRange="[8.13,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.spookyjams]]
+    modId="minecraft"
+    type="required"
+    mandatory=true
+    versionRange="[1.21.11]"
+    ordering="NONE"
+    side="BOTH"
