@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:fermented_spider_eye",
+		"minecraft:red_mushroom",
+		"minecraft:sugar",
+		"spookyjams:glass_jar"
+	],
+	"result": {
+		"id": "spookyjams:witchs_hex_jam",
+		"count": 1
+	}
+}

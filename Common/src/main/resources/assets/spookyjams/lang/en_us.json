@@ -1,0 +1,56 @@
+{
+	"item.spookyjams.glass_jar": "Glass Jar",
+
+	"item.spookyjams.creepers_delight_jam": "Creeper’s Delight Jam",
+	"item.spookyjams.creepers_delight_jam.desc.1": "Sweet and volatile.",
+	"item.spookyjams.creepers_delight_jam.desc.2": "Gone before you know it.",
+
+	"item.spookyjams.endermans_essence_jam": "Enderman’s Essence Jam",
+	"item.spookyjams.endermans_essence_jam.desc.1": "As you stare into the jar,",
+	"item.spookyjams.endermans_essence_jam.desc.2": "the liquid stirs.",
+
+	"item.spookyjams.ghasts_whisper_jam": "Ghast’s Whisper Jam",
+	"item.spookyjams.ghasts_whisper_jam.desc.1": "A soft wail echoes",
+	"item.spookyjams.ghasts_whisper_jam.desc.2": "when the lid is opened.",
+
+	"item.spookyjams.glimmering_gloom_jam": "Glimmering Gloom Jam",
+	"item.spookyjams.glimmering_gloom_jam.desc.1": "A faint glow within the jar.",
+	"item.spookyjams.glimmering_gloom_jam.desc.2": "Sweet, yet unsettlingly cold to the touch.",
+
+	"item.spookyjams.guardians_brine_jam": "Guardian’s Brine Jam",
+	"item.spookyjams.guardians_brine_jam.desc.1": "Salty and cold,",
+	"item.spookyjams.guardians_brine_jam.desc.2": "like the deep ocean’s embrace.",
+
+	"item.spookyjams.phantoms_veil_jam": "Phantom’s Veil Jam",
+	"item.spookyjams.phantoms_veil_jam.desc.1": "The taste of the night sky,",
+	"item.spookyjams.phantoms_veil_jam.desc.2": "weightless and watchful.",
+
+	"item.spookyjams.slimes_squish_jam": "Slime’s Squish Jam",
+	"item.spookyjams.slimes_squish_jam.desc.1": "Chewy and bouncy,",
+	"item.spookyjams.slimes_squish_jam.desc.2": "yet strangely refreshing.",
+
+	"item.spookyjams.spiders_silk_jam": "Spider’s Silk Jam",
+	"item.spookyjams.spiders_silk_jam.desc.1": "Threads of sweetness,",
+	"item.spookyjams.spiders_silk_jam.desc.2": "woven with venom.",
+
+	"item.spookyjams.spooky_yam_jam": "Spooky Yam Jam",
+	"item.spookyjams.spooky_yam_jam.desc.1": "An earthy taste,",
+	"item.spookyjams.spooky_yam_jam.desc.2": "infused with faint spectral energy.",
+
+	"item.spookyjams.witchs_hex_jam": "Witch’s Hex Jam",
+	"item.spookyjams.witchs_hex_jam.desc.1": "The contents shimmer,",
+	"item.spookyjams.witchs_hex_jam.desc.2": "a taste both cursed and kind.",
+
+	"item.spookyjams.withers_rot_jam": "Wither’s Rot Jam",
+	"item.spookyjams.withers_rot_jam.desc.1": "Its bitter strength burns,",
+	"item.spookyjams.withers_rot_jam.desc.2": "with every heartbeat.",
+
+	"item.spookyjams.zombies_hunger_jam": "Zombie’s Hunger Jam",
+	"item.spookyjams.zombies_hunger_jam.desc.1": "It fills you with strength,",
+	"item.spookyjams.zombies_hunger_jam.desc.2": "and endless craving.",
+
+
+	"item.spookyjams.spooky_yam" : "Spooky Yam",
+	"item.spookyjams.spooky_yam_seeds" : "Spooky Yam Seeds",
+	"block.spookyjams.spooky_yam_crop" : "Spooky Yam Crop"
+}
