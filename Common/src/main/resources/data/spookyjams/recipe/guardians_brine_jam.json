@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"minecraft:prismarine_crystals",
+		"minecraft:kelp",
+		"minecraft:sugar",
+		"spookyjams:glass_jar"
+	],
+	"result": {
+		"id": "spookyjams:guardians_brine_jam",
+		"count": 1
+	}
+}

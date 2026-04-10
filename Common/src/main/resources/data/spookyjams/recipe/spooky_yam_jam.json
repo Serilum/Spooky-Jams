@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		"spookyjams:spooky_yam",
+		"minecraft:pumpkin",
+		"minecraft:sugar",
+		"spookyjams:glass_jar"
+	],
+	"result": {
+		"id": "spookyjams:spooky_yam_jam",
+		"count": 1
+	}
+}
