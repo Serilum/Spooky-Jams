@@ -278,7 +278,7 @@ public class ModCommon {
 				.randomTicks()
 				.instabreak()
 				.sound(SoundType.CROP)
-				.pushReaction(PushReaction.DESTROY),
+				.pushReaction(PushReaction.POPPED),
 			true
 		);
 	}
