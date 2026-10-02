@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
   "id": "spookyjams",
-  "version": "1.1",
+  "version": "1.2",
 
   "name": "Spooky Jams",
   "description": "Adds various Spooky Jams, which give effects when consumed. Also adds the Spooky Yam crop, which can be turned into the Spooky Yam Jam! A SpookyJam 2025 entry.",
-  "authors": [ "Rick South" ],
+  "authors": [ "Serilum" ],
   "contact": {
     "homepage": "https://serilum.com/mod/spooky-jams",
     "sources": "https://github.com/Serilum/Spooky-Jams",
     "issues": "https://github.com/Serilum/.issue-tracker/labels/Mod:%20Spooky%20Jams"
   },
 
-  "license": "All Right Reserved",
+  "license": "All Rights Reserved",
   "icon": "icon.png",
 
   "environment": "*",
-  "entrypoints": { "main": [ "com.natamus.spookyjams.ModFabric" ], "client": [ "com.natamus.spookyjams.ModFabricClient" ], "modmenu": [ "com.natamus.spookyjams.fabric.config.IntegrateModMenu" ] },
+  "entrypoints": { "main": [ "com.serilum.spookyjams.ModFabric" ], "client": [ "com.serilum.spookyjams.ModFabricClient" ], "modmenu": [ "com.serilum.spookyjams.fabric.config.IntegrateModMenu" ] },
   "mixins": [
 	"spookyjams.mixins.json"
   ],
@@ -26,7 +26,7 @@
     "fabric": "*",
     "minecraft": ">=1.20",
     "java": ">=17",
-    "collective": ">=8.13"
+    "collective": ">=8.40"
   },
 
   "custom": {
@@ -41,18 +41,15 @@
 	  " ",
 	  "Thank you very much to my Membership sponsors for supporting the development of this mod!",
 	  " ",
-	  "If you would like to contribute too, check out https://serilum.com/donate.",
+	  "If you would like to contribute too, check out https://serilum.com/donate",
 	  " ",
 	  "Membership sponsors:",
-	  " Alister",
 	  " Andrean Olgo",
+	  " AnyankaT",
 	  " aternosorg",
 	  " Cherriesaurus",
-	  " Michael W. S.",
-	  " t128",
-	  " Tyler Behl",
-	  " William Innes",
-	  " XAgent",
-	  " ตัวตรึง พระนคร"
+	  " Linda Jansen",
+	  " MWS",
+	  " Tyler Behl"
   ]
 }
