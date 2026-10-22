@@ -3,6 +3,7 @@ package com.serilum.spookyjams;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.serilum.spookyjams.forge.config.IntegrateForgeConfig;
+import com.serilum.spookyjams.forge.events.ForgeGrassBreakEvent;
 import com.serilum.spookyjams.util.Reference;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.bus.BusGroup;
@@ -33,6 +34,7 @@ public class ModForge {
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
 		ModCommon.setAssets();
+		ForgeGrassBreakEvent.registerEventsInBus();
 
 		if (FMLEnvironment.dist.equals(Dist.CLIENT)) {
 			ModCommon.setBlockRender();

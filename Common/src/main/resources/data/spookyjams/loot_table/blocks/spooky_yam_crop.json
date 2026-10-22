@@ -1,12 +1,9 @@
 {
   "type": "minecraft:block",
-  "functions": [
-    { "function": "minecraft:explosion_decay" }
-  ],
+  "modifier": { "type": "minecraft:explosion_decay" },
   "pools": [
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -14,13 +11,11 @@
             {
               "type": "minecraft:item",
               "name": "spookyjams:spooky_yam",
-              "conditions": [
-                {
-                  "condition": "minecraft:block_state_property",
-                  "block": "spookyjams:spooky_yam_crop",
-                  "properties": { "age": "3" }
-                }
-              ]
+              "condition": {
+                "type": "minecraft:match_block",
+                "blocks": "spookyjams:spooky_yam_crop",
+                "state": { "age": "3" }
+              }
             },
             {
               "type": "minecraft:item",
@@ -31,27 +26,22 @@
       ]
     },
     {
-      "rolls": 1.0,
-      "bonus_rolls": 0.0,
-      "conditions": [
-        {
-          "condition": "minecraft:block_state_property",
-          "block": "spookyjams:spooky_yam_crop",
-          "properties": { "age": "3" }
-        }
-      ],
+      "rolls": 1,
+      "condition": {
+        "type": "minecraft:match_block",
+        "blocks": "spookyjams:spooky_yam_crop",
+        "state": { "age": "3" }
+      },
       "entries": [
         {
           "type": "minecraft:item",
           "name": "spookyjams:spooky_yam_seeds",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:binomial_with_bonus_count",
-              "parameters": { "extra": 3, "probability": 0.5714286 }
-            }
-          ]
+          "modifier": {
+            "type": "minecraft:apply_bonus",
+            "enchantment": "minecraft:fortune",
+            "formula": "minecraft:binomial_with_bonus_count",
+            "parameters": { "extra": 3, "probability": 0.5714286 }
+          }
         }
       ]
     }
