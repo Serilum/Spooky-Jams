@@ -3,7 +3,9 @@ package com.serilum.spookyjams;
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.serilum.spookyjams.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.spookyjams.neoforge.events.NeoForgeGrassBreakEvent;
 import com.serilum.spookyjams.util.Reference;
+import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
@@ -32,6 +34,7 @@ public class ModNeoForge {
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
 		ModCommon.setAssets();
+		NeoForge.EVENT_BUS.register(NeoForgeGrassBreakEvent.class);
 
 		if (FMLEnvironment.getDist().equals(Dist.CLIENT)) {
 			ModCommon.setBlockRender();
