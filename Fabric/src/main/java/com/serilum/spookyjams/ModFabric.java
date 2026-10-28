@@ -1,0 +1,44 @@
+package com.serilum.spookyjams;
+
+import com.natamus.collective.check.RegisterMod;
+import com.natamus.collective.check.ShouldLoadCheck;
+import com.natamus.collective.fabric.callbacks.CollectiveBlockEvents;
+import com.serilum.spookyjams.events.GrassBreakEvent;
+import com.serilum.spookyjams.util.Reference;
+import net.fabricmc.api.ModInitializer;
+import net.minecraft.core.BlockPos;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.state.BlockState;
+
+public class ModFabric implements ModInitializer {
+
+	@Override
+	public void onInitialize() {
+		if (!ShouldLoadCheck.shouldLoad(Reference.MOD_ID)) {
+			return;
+		}
+
+		setGlobalConstants();
+		ModCommon.init();
+		ModCommon.registerAssets(null);
+		ModCommon.setAssets();
+
+		loadEvents();
+
+		RegisterMod.register(Reference.NAME, Reference.MOD_ID, Reference.VERSION, Reference.ACCEPTED_VERSIONS);
+	}
+
+	private void loadEvents() {
+		CollectiveBlockEvents.BLOCK_DESTROY.register((Level level, Player player, BlockPos blockPos, BlockState blockState, BlockEntity blockEntity, ItemStack itemStack) -> {
+			GrassBreakEvent.onGrassBreak(level, player, blockPos, blockState);
+			return true;
+		});
+	}
+
+	private static void setGlobalConstants() {
+
+	}
+}
